@@ -1,0 +1,64 @@
+#sidebar-body{
+    width: 100%;
+    height: 100%;
+}
+#sidebar-menu {
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    height: 100%;
+    margin-left: -250px;
+    background:#333 ;  
+    /*-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;*/
+}
+.sidebar-mainmenu {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-mainmenu li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-mainmenu li a {
+    /*margin-top: -20px;*/
+    /*font-size: 15px;*/
+    /*padding: 5px;*/
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar-mainmenu li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-mainmenu li a:active,
+.sidebar-mainmenu li a:focus {
+    text-decoration: none;
+}
+/*
+.sidebar-mainmenu .sidebar-judul {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-mainmenu .sidebar-judul a {
+    color: #999999;
+}
+
+.sidebar-mainmenu .sidebar-judul a:hover {
+    color: #fff;
+    background: none;
+}*/
